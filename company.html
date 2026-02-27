@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Company | Yuuma Portfolio</title>
+    <meta name="description" content="会社概要ページ（構造化・表・アクセシビリティ）" />
+
+    <link rel="stylesheet" href="styles.css" />
+    <script src="main.js" defer></script>
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main">本文へスキップ</a>
+
+    <header class="site-header" data-header>
+      <div class="container header-inner">
+        <a class="site-logo" href="index.html" aria-label="トップへ">Yuuma</a>
+
+        <button class="nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-controls="global-nav">
+          <span class="nav-toggle__bar" aria-hidden="true"></span>
+          <span class="nav-toggle__bar" aria-hidden="true"></span>
+          <span class="nav-toggle__bar" aria-hidden="true"></span>
+          <span class="sr-only">メニューを開閉</span>
+        </button>
+
+        <nav id="global-nav" class="global-nav" aria-label="グローバルナビゲーション" data-nav>
+          <ul class="nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="company.html">Company</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+          </ul>
+          <div class="nav-actions">
+            <button class="btn btn-ghost" type="button" data-theme-toggle>
+              <span class="sr-only">テーマ切替</span>
+              <span aria-hidden="true">🌓</span>
+            </button>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main" class="section" data-section>
+      <div class="container">
+        <h1 class="section-title">Company</h1>
+        <p class="muted">このページは「情報構造の丁寧さ」を見せるためのサンプルです。</p>
+
+        <section class="section-light card pad" aria-labelledby="overview">
+          <h2 id="overview" class="card-title">会社概要（サンプル）</h2>
+
+          <table class="table">
+            <caption class="sr-only">会社概要</caption>
+            <thead>
+              <tr>
+                <th scope="col">項目</th>
+                <th scope="col">内容</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">社名</th>
+                <td>Yuuma Studio（架空）</td>
+              </tr>
+              <tr>
+                <th scope="row">事業</th>
+                <td>Web制作 / UI実装 / 運用改善</td>
+              </tr>
+              <tr>
+                <th scope="row">拠点</th>
+                <td>石川県（リモート対応）</td>
+              </tr>
+              <tr>
+                <th scope="row">連絡</th>
+                <td>お問い合わせフォームより</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+        <section class="section" data-section>
+          <h2 class="section-title">Value</h2>
+
+          <div class="grid-3">
+            <article class="card">
+              <h3 class="card-title">読みやすさ</h3>
+              <p class="card-text">命名・責務分離・防御的コードで引き継ぎやすく。</p>
+            </article>
+            <article class="card">
+              <h3 class="card-title">再利用性</h3>
+              <p class="card-text">共通関数とdata属性で、HTML構造が変わっても壊れにくく。</p>
+            </article>
+            <article class="card">
+              <h3 class="card-title">アクセシビリティ</h3>
+              <p class="card-text">フォーカス・ARIA・キーボード操作を丁寧に。</p>
+            </article>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <small>© <span data-year></span> Yuuma</small>
+      </div>
+    </footer>
+  </body>
+</html>
