@@ -285,6 +285,11 @@ a{
   transform:none;
 }
 
+.work-card a{
+  color:#007bff;
+  text-decoration: underline;
+}
+
 @media (max-width: 900px){
   .cols-3,
   .cols-2,
