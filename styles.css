@@ -489,7 +489,7 @@ a {
   color: #fff;
 }
 
-.text-link demo{
+.text-link.demo{
   color:#007bff;
   text-decoration:underline;
 }
