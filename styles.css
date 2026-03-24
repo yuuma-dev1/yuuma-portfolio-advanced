@@ -489,6 +489,10 @@ a {
   color: #fff;
 }
 
+.project card a{
+  color:#007bff;
+  text-decoration:underline;
+
 @media (max-width: 900px) {
   .hero-inner {
     grid-template-columns: 1fr;
