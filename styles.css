@@ -494,6 +494,10 @@ a {
   text-decoration:underline;
 }
 
+.text-link demo:hover{
+  opacity:0.7;
+}
+
 @media (max-width: 900px) {
   .hero-inner {
     grid-template-columns: 1fr;
