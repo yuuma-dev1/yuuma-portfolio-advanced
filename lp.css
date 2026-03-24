@@ -285,7 +285,7 @@ a{
   transform:none;
 }
 
-a{
+.work-body a{
   color:#007bff;
   text-decoration: underline;
 }
