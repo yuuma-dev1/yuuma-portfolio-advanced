@@ -494,7 +494,7 @@ a {
   text-decoration:underline;
 }
 
-.text-link demo:hover{
+.text-link.demo:hover{
   opacity:0.7;
 }
 
