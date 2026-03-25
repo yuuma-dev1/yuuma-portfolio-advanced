@@ -179,16 +179,17 @@ a {
   user-select: none;
 }
 
-.btn-primary {
-  background: #000;
+.btn-primary { 
   color: #fff;
-  box-shadow: var(--shadow);
+  background: #111;
+  font: bold;
 }
 
 .btn-secondary {
-  background: #fff;
-  box-shadow:0 4px 10px rgba(0,0,0,0.2);
-  color: #000;
+  color: #fff;
+  background: transparent;
+  border:2px solid rgba(255, 255, 255, 0.6);
+  font: bold;
 }
 
 .btn-ghost {
