@@ -186,9 +186,9 @@ a {
 }
 
 .btn-secondary {
-  background: transparent;
+  background: #fff;
   border: 2px solid #fff;
-  color: #fff;
+  color: #000;
 }
 
 .btn-ghost {
