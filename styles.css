@@ -187,8 +187,8 @@ a {
 
 .btn-secondary {
   background: transparent;
-  border: 2px solid var(--color-main);
-  color: var(--color-main);
+  border: 2px solid #fff;
+  color: #fff;
 }
 
 .btn-ghost {
