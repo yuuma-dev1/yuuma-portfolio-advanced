@@ -504,12 +504,24 @@ a {
 }
 
 .text-link.demo{
-  color:#007bff;
-  text-decoration:underline;
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 16px;
+
+  color: #333;
+  background: #fff;
+
+  border: 1px solid #ccc;
+  border-radius: 6px;
+
+  text-decoration: none;
+  transition: all 0.3s ease;
 }
 
 .text-link.demo:hover{
-  opacity:0.5;
+  background: #333;
+  color: #fff;
+  border-color: #333;
 }
 
 @media (max-width: 900px) {
